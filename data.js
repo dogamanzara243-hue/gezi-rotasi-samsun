@@ -24,7 +24,42 @@ const SPOT_DATA = {
         paragraphs: ["Samsun, Atatürk'ün 19 Mayıs 1919'da adım atarak Milli Mücadele'yi başlattığı meşale kentimizdir.", "Atatürk Onur Anıtı, Bandırma Vapuru Müzesi ve doğa harikası Şahinkaya Kanyonu ile tarih ve doğayı bir arada sunar."],
         visitorNotes: [{"label": "En İyi Zaman", "value": "Mayıs - Eylül"}, {"label": "Gezilecek", "value": "Bandırma Vapuru MüzeKartlı"}, {"label": "Ne Yenir", "value": "Bafra ve Pide Çeşitleri"}]
     },
-    whyVisit: {"title": "Neden Samsun'a Gitmelisiniz?", "subtitle": "Milli tarihin simgeleri ve Karadeniz doğası", "cards": [{"icon": "fa-solid fa-ship", "title": "Bandırma Vapuru", "description": "Kurtuluş Savaşı'nın simgesi olan tarihi vapurun birebir müze kopyası."}, {"icon": "fa-solid fa-mountain-sun", "title": "Şahinkaya Kanyonu", "description": "Kızılırmak üzerinde yer alan, kano ve tekne turları yapılan devasa kanyon."}, {"icon": "fa-solid fa-monument", "title": "Onur Anıtı", "description": "Heinrich Krippel tarafından yapılan dünyaca ünlü Atatürk heykeli."}]},
+    
+    whyVisit: {
+        title: "Samsun Keşif Rotaları",
+        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        cards: [
+            {
+                icon: "fa-solid fa-landmark",
+                title: "Tarihi Yerler",
+                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
+                linkText: "Tarihi Keşfet",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-city",
+                title: "Modern Yerler",
+                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
+                linkText: "Moderni İncele",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-gem",
+                title: "Sofistike Yerler",
+                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                linkText: "Sofistike Noktalar",
+                url: "#where-to-stay-title"
+            },
+            {
+                icon: "fa-solid fa-tree",
+                title: "Doğal Güzellikler",
+                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                linkText: "Doğayı Gör",
+                url: "#transport-title"
+            }
+        ]
+    },
+     {"icon": "fa-solid fa-mountain-sun", "title": "Şahinkaya Kanyonu", "description": "Kızılırmak üzerinde yer alan, kano ve tekne turları yapılan devasa kanyon."}, {"icon": "fa-solid fa-monument", "title": "Onur Anıtı", "description": "Heinrich Krippel tarafından yapılan dünyaca ünlü Atatürk heykeli."}]},
     mustSee: {
         title: "Görülmesi Gereken Öne Çıkan Noktalar",
         items: [{"category": "Müze", "title": "Bandırma Vapuru Müzesi", "description": "19 Mayıs ruhunu yaşatan açık hava ve kapalı müze alanı."}, {"category": "Doğa", "title": "Şahinkaya Kanyonu", "description": "Vezirköprü'de muhteşem tekne turları."}, {"category": "Tarih", "title": "Amisos Tepesi", "description": "Telefrik ile çıkılan kral mezarları ve manzara noktası."}, {"category": "Park", "title": "Batı Park & Amazon Köyü", "description": "Savaşçı Amazon kadınlarının heykelleri ve eğlence parkı."}]
