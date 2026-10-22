@@ -1,76 +1,179 @@
 const SPOT_DATA = {
-    theme: "museum",
-    title: "Samsun Gezi Rehberi",
-    subtitle: "Milli Mücadelenin Başladığı Karadeniz Kenti",
-    category: "Tarih & Doğa",
-    hero: {
-        badge: "Kurtuluşun Şehri",
-        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
-        stats: [
-            { label: "Ziyaretçi", value: "Yıllık 1M+" },
-            { label: "İdeal Süre", value: "2 Gün" },
-            { label: "Puan", value: "4.9 / 5" },
-            { label: "Bölge", value: "Karadeniz" }
-        ]
-    },
-    venueSummary: {
-        badgeTitle: "KARADENİZ GEZİSİ",
-        typeTitle: "Samsun Ziyaret Rehberi",
-        description: "Bandırma Vapuru Müzesi'nden Şahinkaya Kanyonu'na, Onur Anıtı'ndan Amisos Tepesi'ne Karadeniz rotası.",
-        details: [{"label": "Bölge", "value": "Karadeniz"}, {"label": "Öne Çıkan", "value": "Bandırma Vapuru"}, {"label": "İdeal Süre", "value": "2 Gün"}]
-    },
-    overview: {
-        title: "Samsun Gezi Rehberi Genel Bakış",
-        paragraphs: ["Samsun, Atatürk'ün 19 Mayıs 1919'da adım atarak Milli Mücadele'yi başlattığı meşale kentimizdir.", "Atatürk Onur Anıtı, Bandırma Vapuru Müzesi ve doğa harikası Şahinkaya Kanyonu ile tarih ve doğayı bir arada sunar."],
-        visitorNotes: [{"label": "En İyi Zaman", "value": "Mayıs - Eylül"}, {"label": "Gezilecek", "value": "Bandırma Vapuru MüzeKartlı"}, {"label": "Ne Yenir", "value": "Bafra ve Pide Çeşitleri"}]
-    },
-    
-    whyVisit: {
-        title: "Samsun Keşif Rotaları",
-        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
-        cards: [
+    "theme": "museum",
+    "title": "Samsun Gezi Rehberi",
+    "subtitle": "Milli Mücadelenin Başladığı Karadeniz Kenti",
+    "category": "Karadeniz & Tarih",
+    "hero": {
+        "badge": "Kurtuluşun Şehri",
+        "coverImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
+        "stats": [
             {
-                icon: "fa-solid fa-landmark",
-                title: "Tarihi Yerler",
-                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
-                linkText: "Tarihi Keşfet",
-                url: "#must-see-items"
+                "label": "Ziyaretçi",
+                "value": "Yıllık 1M+"
             },
             {
-                icon: "fa-solid fa-city",
-                title: "Modern Yerler",
-                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
-                linkText: "Moderni İncele",
-                url: "#must-see-items"
+                "label": "İdeal Süre",
+                "value": "3-5 Gün"
             },
             {
-                icon: "fa-solid fa-gem",
-                title: "Sofistike Yerler",
-                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
-                linkText: "Sofistike Noktalar",
-                url: "#where-to-stay-title"
+                "label": "Puan",
+                "value": "4.9 / 5"
             },
             {
-                icon: "fa-solid fa-tree",
-                title: "Doğal Güzellikler",
-                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
-                linkText: "Doğayı Gör",
-                url: "#transport-title"
+                "label": "Bölge",
+                "value": "Türkiye"
             }
         ]
     },
-     {"icon": "fa-solid fa-mountain-sun", "title": "Şahinkaya Kanyonu", "description": "Kızılırmak üzerinde yer alan, kano ve tekne turları yapılan devasa kanyon."}, {"icon": "fa-solid fa-monument", "title": "Onur Anıtı", "description": "Heinrich Krippel tarafından yapılan dünyaca ünlü Atatürk heykeli."}]},
-    mustSee: {
-        title: "Görülmesi Gereken Öne Çıkan Noktalar",
-        items: [{"category": "Müze", "title": "Bandırma Vapuru Müzesi", "description": "19 Mayıs ruhunu yaşatan açık hava ve kapalı müze alanı."}, {"category": "Doğa", "title": "Şahinkaya Kanyonu", "description": "Vezirköprü'de muhteşem tekne turları."}, {"category": "Tarih", "title": "Amisos Tepesi", "description": "Telefrik ile çıkılan kral mezarları ve manzara noktası."}, {"category": "Park", "title": "Batı Park & Amazon Köyü", "description": "Savaşçı Amazon kadınlarının heykelleri ve eğlence parkı."}]
+    "venueSummary": {
+        "badgeTitle": "SAMSUN ÖZEL REHBERİ",
+        "typeTitle": "Gezilecek Yerler ve Destinasyonlar",
+        "description": "Bandırma Vapuru Müzesi'nden Şahinkaya Kanyonu'na, Onur Anıtı'ndan Amisos Tepesi'ne uzanan gurur dolu Karadeniz rotası.",
+        "details": [
+            {
+                "label": "Bölge",
+                "value": "Türkiye"
+            },
+            {
+                "label": "Öne Çıkan",
+                "value": "Tarih, Kültür & Doğa"
+            },
+            {
+                "label": "İdeal Süre",
+                "value": "2-4 Gün"
+            }
+        ]
     },
-    transportation: {"title": "Samsun'a Ulaşım Seçenekleri", "tip": "Samkart ile hafif raylı sistem (tramvay) kullanarak tüm sahili gezebilirsiniz.", "mapUrl": "https://maps.google.com/?q=Samsun+Turkey", "methods": [{"icon": "fa-solid fa-plane", "title": "Çarşamba Havalimanı", "detail": "Havaş otobüsleri ile merkeze 30 dakika."}, {"icon": "fa-solid fa-train", "title": "Tramvay Hattı", "detail": "Üniversite ile Tekkeköy arasında sahil boyunca hizmet verir."}]},
-    whereToStay: {
-        title: "Konaklama Önerileri",
-        hotels: [{"badge": "Merkezi", "name": "Sheraton Grand Samsun", "distance": "Sahil Kordonu", "link": "https://www.google.com/travel/hotels"}, {"badge": "Şehir", "name": "Anemon Samsun Otel", "distance": "Mert Nehir Yanı", "link": "https://www.google.com/travel/hotels"}]
+    "overview": {
+        "title": "Samsun Genel Bakış",
+        "paragraphs": [
+            "Samsun; 19 Mayıs 1919'da Mustafa Kemal Atatürk'ün karaya ayak bastığı, Türkiye Cumhuriyeti'nin temellerinin atıldığı tarihi bir Karadeniz kentidir.",
+            "Eşsiz sahil kordonunda bisiklet sürebilir, Şahinkaya Kanyonu'nda tekne turuna çıkabilir ve meşhur Bafra pidesini yerinde tadabilirsiniz."
+        ],
+        "visitorNotes": [
+            {
+                "label": "En İyi Zaman",
+                "value": "Mayıs - Eylül Ayları"
+            },
+            {
+                "label": "Ulaşım",
+                "value": "Samkart (Tramvay & Otobüs)"
+            },
+            {
+                "label": "Meşhur",
+                "value": "Samsun & Bafra Pidesi"
+            }
+        ]
     },
-    whereToEat: {
-        title: "Nerede Ne Yenir?",
-        restaurants: [{"badge": "Meşhur Pide", "name": "Niyazi Kesim Bafra Pidesi", "detail": "Geleneksel Çıtır Bafra Pidesi", "rating": "4.9"}, {"badge": "Döner", "name": "Çalıkuşu Döner", "detail": "Nostaljik Samsun Yaprak Döneri", "rating": "4.7"}]
+    "whyVisit": {
+        "title": "Samsun Keşif Rotaları",
+        "subtitle": "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        "cards": [
+            {
+                "icon": "fa-solid fa-landmark",
+                "title": "Tarihi Yerler",
+                "description": "Samsun'in köklü geçmişini yansıtan anıtlar, surlar ve müzeler.",
+                "linkText": "Tarihi Keşfet",
+                "url": "#must-see-items"
+            },
+            {
+                "icon": "fa-solid fa-city",
+                "title": "Modern Yerler",
+                "description": "Şehrin en hareketli caddeleri, modern meydanları ve kültür merkezleri.",
+                "linkText": "Moderni İncele",
+                "url": "#must-see-items"
+            },
+            {
+                "icon": "fa-solid fa-gem",
+                "title": "Sofistike Yerler",
+                "description": "Nezih kafeler, sanat galerileri ve özel konaklama mekanları.",
+                "linkText": "Sofistike Noktalar",
+                "url": "#where-to-stay-title"
+            },
+            {
+                "icon": "fa-solid fa-tree",
+                "title": "Doğal Güzellikler",
+                "description": "Parklar, kanyonlar, sahiller ve nefes kesen manzara seyir noktaları.",
+                "linkText": "Doğayı Gör",
+                "url": "#transport-title"
+            }
+        ]
+    },
+    "mustSee": {
+        "title": "Görülmesi Gereken Önemli Noktalar",
+        "items": [
+            {
+                "category": "Müze",
+                "title": "Bandırma Vapuru Müzesi",
+                "description": "Milli mücadelenin simgesi olan tarihi gemi rekonstrüksiyonu."
+            },
+            {
+                "category": "Anıt",
+                "title": "Onur Anıtı (Atatürk Heykeli)",
+                "description": "Atatürk Parkı'nda şahlanan efsanevi bronz anıt."
+            },
+            {
+                "category": "Kanyon",
+                "title": "Şahinkaya Kanyonu",
+                "description": "Kızılırmak üzerinde kanyon ve doğa harikası."
+            },
+            {
+                "category": "Tarih",
+                "title": "Amisos Tepesi & Kral Mezarları",
+                "description": "Teleferik ile çıkılan panoramik manzaralı tepe."
+            }
+        ]
+    },
+    "transportation": {
+        "title": "Ulaşım Bilgileri",
+        "tip": "Şehir içi toplu taşıma kartlarını kullanarak tüm turistik mekanlara kolayca ulaşabilirsiniz.",
+        "mapUrl": "https://maps.google.com/?q=Samsun+Turkey",
+        "mapBgImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
+        "methods": [
+            {
+                "icon": "fa-solid fa-plane",
+                "title": "Havalimanı Ulaşımı",
+                "detail": "Havaş ve belediye otobüs seferleri ile şehir merkezine rahat erişim."
+            },
+            {
+                "icon": "fa-solid fa-bus",
+                "title": "Şehirlerarası Otogar",
+                "detail": "Türkiye'nin tüm illerinden düzenli otobüs seferleri."
+            }
+        ]
+    },
+    "whereToStay": {
+        "title": "Konaklama Önerileri",
+        "hotels": [
+            {
+                "badge": "Deniz Manzaralı",
+                "name": "Sheraton Grand Samsun",
+                "distance": "Atakum Sahil",
+                "link": "https://www.google.com/travel/hotels"
+            },
+            {
+                "badge": "Merkezi",
+                "name": "Serra Otel",
+                "distance": "İlkadım Merkez",
+                "link": "https://www.google.com/travel/hotels"
+            }
+        ]
+    },
+    "whereToEat": {
+        "title": "Nerede Ne Yenir?",
+        "restaurants": [
+            {
+                "badge": "Meşhur Pide",
+                "name": "Niyazi Bey Pide",
+                "detail": "Atakum Sahil Yolu",
+                "rating": "4.8"
+            },
+            {
+                "badge": "Karadeniz Mutfağı",
+                "name": "Gülhan Restoran",
+                "detail": "Atakum",
+                "rating": "4.7"
+            }
+        ]
     }
 };
